@@ -7,6 +7,12 @@
   },
   {
     "remote": "github",
+    "repository": "CypherOS/device_qcom_common",
+    "target_path": "device/qcom/common",
+    "branch": "master"
+  },
+  {
+    "remote": "github",
     "repository": "GarvMaggu/android_vendor_motorola_potter",
     "target_path": "vendor/motorola/potter",
     "branch": "master"
