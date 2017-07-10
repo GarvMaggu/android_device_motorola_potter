@@ -1,21 +1,21 @@
 [
   {
     "remote": "github",
-    "repository":  "boulzordev/android_kernel_motorola_msm8953",
+    "repository":  "GarvMaggu/android_kernel_motorola_msm8953",
     "target_path": "kernel/motorola/msm8953",
-    "branch": "cm-14.1"
+    "branch": "aoscp"
   },
   {
     "remote": "github",
-    "repository": "boulzordev/android_vendor_motorola_potter",
+    "repository": "GarvMaggu/android_vendor_motorola_potter",
     "target_path": "vendor/motorola/potter",
     "branch": "master"
   },
   {
     "remote": "github",
-    "repository": "LineageOS/android_external_bson",
+    "repository": "CypherOS/external_bson",
     "target_path": "external/bson",
-    "branch": "cm-14.1"
+    "branch": "nougat-mr2"
   },
   {
     "remote": "github",
