@@ -9,7 +9,7 @@
     "remote": "github",
     "repository": "CypherOS/device_qcom_common",
     "target_path": "device/qcom/common",
-    "branch": "master"
+    "branch": "nougat-mr2"
   },
   {
     "remote": "github",
