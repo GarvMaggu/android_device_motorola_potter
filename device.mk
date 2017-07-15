@@ -146,6 +146,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fs_config_files
 
+# GPS
+PRODUCT_PACKAGES += \
+    libgnsspps \
+    gps.msm8953
+
 # IMS
 PRODUCT_PACKAGES += \
     libshim_ims
@@ -175,6 +180,14 @@ PRODUCT_COPY_FILES += \
 # Lights
 PRODUCT_PACKAGES += \
     lights.msm8953
+
+# Display Calibration
+PRODUCT_PACKAGES += \
+    libjni_livedisplay
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/qdcm_calib_data_mipi_mot_vid_boe_1080p_520.xml:system/etc/qdcm_calib_data_mipi_mot_vid_boe_1080p_520.xml \
+    $(LOCAL_PATH)/configs/qdcm_calib_data_mipi_mot_vid_tianma_1080p_520.xml:system/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_520.xml
 
 # Media
 PRODUCT_PACKAGES += \
